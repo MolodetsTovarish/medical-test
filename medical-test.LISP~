@@ -1,0 +1,11 @@
+(setf *random-state* (make-random-state t))
+
+(defun medical-test (population-percentage positive-percentage sample)
+  ;;(let 
+
+  ;;    )
+
+  (count t (<= (random 100.0)(- 100 population-percentage)))
+)
+
+;;(count t (loop for x from 1 to sample collect (run switch?))))
